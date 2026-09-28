@@ -1,0 +1,17 @@
+# Virtual environment (rebuild with: pip install -r requirements.txt)
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets and API keys - NEVER upload
+.env
+
+# Editor and operating system files
+.vscode/
+Thumbs.db
+.DS_Store
