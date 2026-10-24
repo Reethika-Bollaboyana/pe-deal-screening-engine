@@ -58,7 +58,7 @@ Recurring/contracted revenue, customer concentration (customers >10% of revenue)
 ## 7. Methodology Conventions
 
 - **EBITDA** = reported operating income + depreciation & amortization (not company-defined "Adjusted EBITDA")
-- **Debt** excludes operating lease liabilities
+- **Debt** includes finance lease obligations (current and non-current) and excludes operating lease liabilities
 - **Tax rate** for NOPAT: 25% assumption applied uniformly
 - **Period:** most recent fiscal year from annual 10-K filings; share prices recorded with an "as of" date
 - **Data source:** SEC EDGAR (XBRL financial data); market prices from a documented source
