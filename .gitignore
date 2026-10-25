@@ -15,3 +15,5 @@ __pycache__/
 .vscode/
 Thumbs.db
 .DS_Store
+# Raw SEC downloads (recreated by notebooks/03_extract_financials.ipynb)
+data/raw/companyfacts/
