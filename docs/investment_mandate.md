@@ -25,13 +25,15 @@ Ridgeline targets companies that provide outsourced, specialized services to oth
 
 **Excluded:** staffing and PEO businesses (structurally thin margins), financial services, real estate, companies with negative EBITDA, and companies already subject to an announced acquisition.
 
-## 3. Size Gates (must pass to be considered)
+## 3. Size Gate (must pass to be considered)
 
 | Metric | Requirement |
 |---|---|
-| Revenue | $250 million – $1 billion |
-| EBITDA | $40 – 100 million (must be positive) |
-| Geography | U.S.-listed, U.S.-headquartered |
+| EBITDA | $40 – 100 million, most recent fiscal year (must be positive) |
+| Recency | Most recent annual report covers fiscal year 2025 or later |
+| Geography | U.S.-listed (NYSE or Nasdaq) and files Form 10-K (not 20-F/40-F) |
+
+Revenue is reported for context but is not a gate. Deal prices are set as multiples of EBITDA, so EBITDA determines affordability. Low-margin businesses are assessed through the EBITDA margin criterion instead.
 
 ## 4. Core Screening Metrics (provisional thresholds)
 
@@ -68,3 +70,15 @@ Recurring/contracted revenue, customer concentration (customers >10% of revenue)
 - Public companies are used as proxies; most real middle-market PE targets are private.
 - Annual figures are used rather than trailing-twelve-month figures, creating a timing gap with current share prices.
 - Thresholds are provisional and may be revised after reviewing real data; any revision will be documented.
+
+## 9. Screening Universe and Revisions
+
+**Universe:** U.S.-listed companies under SIC codes 7320, 7340, 7380, 7381, 7389, 7600, 8711, 8741, 8742, 8744. Every company's inclusion or exclusion is recorded in `data/processed/universe_review.csv`.
+
+**Revision log**
+
+| Date | Change | Evidence |
+|---|---|---|
+| 2026-10-25 | Added SIC 7389 and 8742 to the initial five codes | Without them the universe would have had 28 companies instead of 167 |
+| 2026-10-25 | Added SIC 7380, 8741, 8744 | First size gate passed only 5 companies; no change in result (business-services codes exhausted) |
+| 2026-10-25 | Removed the revenue gate ($250M–$1B); gate on EBITDA only | Sensitivity test: current gate 5 passes; EBITDA-only gate 8; a $4B fund 5 (different companies). Fund size kept at $2B |
