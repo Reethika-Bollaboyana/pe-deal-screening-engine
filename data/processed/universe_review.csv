@@ -1,0 +1,168 @@
+cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state,status,us_hq,annual_forms,exclusion_reason,in_universe
+1403161,V,VISA INC.,7389.0,"Services-Business Services, NEC",930.0,CA,OK,True,10-K,,True
+1141391,MA,Mastercard Inc,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
+1577552,BABA,Alibaba Group Holding Ltd,7389.0,"Services-Business Services, NEC",,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1467373,ACN,Accenture plc,7389.0,"Services-Business Services, NEC",831.0,L2,OK,False,10-K,,True
+1543151,UBER,"Uber Technologies, Inc",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+64040,SPGI,S&P Global Inc.,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,NY,OK,True,"10-K, 10-K/A",,True
+1737806,PDD,PDD Holdings Inc.,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1559720,ABNB,"Airbnb, Inc.",7340.0,Services-To Dwellings & Other Buildings,1231.0,CA,OK,True,10-K,,True
+1099590,MELI,MERCADOLIBRE INC,7389.0,"Services-Business Services, NEC",1231.0,X3,OK,False,"10-K, 10-K/A",,True
+1059556,MCO,MOODYS CORP /DE/,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,NY,OK,True,10-K,,True
+1792789,DASH,"DoorDash, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,"10-K, 10-K/A",,True
+929869,RELX,RELX PLC,7389.0,"Services-Business Services, NEC",1231.0,X0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1065088,EBAY,EBAY INC,7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,"10-K, 10-K/A",,True
+1633917,PYPL,"PayPal Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+1408198,MSCI,MSCI Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,"10-K, 10-K/A",,True
+1175454,CPAY,"CORPAY, INC.",7389.0,"Services-Business Services, NEC",1231.0,GA,OK,True,"10-K, 10-K/A",,True
+798354,FISV,FISERV INC,7389.0,"Services-Business Services, NEC",1231.0,WI,OK,True,10-K,,True
+1269238,TCOM,Trip.com Group Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1123360,GPN,GLOBAL PAYMENTS INC,7389.0,"Services-Business Services, NEC",1231.0,GA,OK,True,"10-K, 10-K/A, 10-KT",,True
+33185,EFX,EQUIFAX INC,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,GA,OK,True,10-K,,True
+1383312,BR,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",7389.0,"Services-Business Services, NEC",630.0,NY,OK,True,10-K,,True
+1136893,FIS,"Fidelity National Information Services, Inc.",7389.0,"Services-Business Services, NEC",1231.0,FL,OK,True,10-K,,True
+814547,FICO,FAIR ISAAC CORP,7389.0,"Services-Business Services, NEC",930.0,MT,OK,True,10-K,,True
+1985487,KSPI,Joint Stock Co Kaspi.kz,7389.0,"Services-Business Services, NEC",1231.0,1P,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+84839,ROL,ROLLINS INC,7340.0,Services-To Dwellings & Other Buildings,1231.0,GA,OK,True,10-K,,True
+1061574,GIB,CGI INC,8742.0,Services-Management Consulting Services,930.0,A8,NO ANNUAL 10-K DATA,False,40-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1796209,APG,APi Group Corp,7340.0,Services-To Dwellings & Other Buildings,1231.0,MN,OK,True,"10-K, 10-K/A",,True
+1552033,TRU,TransUnion,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,IL,OK,True,10-K,,True
+1046102,RBA,RB GLOBAL INC.,7389.0,"Services-Business Services, NEC",1231.0,,OK,False,10-K,,True
+1579241,ALLE,Allegion plc,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,,OK,False,10-K,,True
+1057352,CSGP,"COSTAR GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA,OK,True,10-K,,True
+1086222,AKAM,AKAMAI TECHNOLOGIES INC,7389.0,"Services-Business Services, NEC",1231.0,MA,OK,True,10-K,,True
+1579091,CART,Maplebear Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+1855612,GRAB,Grab Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2099039,WSE,Wise Group plc,7389.0,"Services-Business Services, NEC",331.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2080845,PAYP,PayPay Corp,7389.0,"Services-Business Services, NEC",331.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1443646,BAH,Booz Allen Hamilton Holding Corp,8742.0,Services-Management Consulting Services,331.0,VA,OK,True,10-K,,True
+831641,TTEK,TETRA TECH INC,8711.0,Services-Engineering Services,927.0,CA,OK,True,"10-K, 10-K/A",,True
+1428336,HQY,"HEALTHEQUITY, INC.",7389.0,"Services-Business Services, NEC",131.0,UT,OK,True,10-K,,True
+1370637,ETSY,ETSY INC,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
+1131383,STN,STANTEC INC,8711.0,Services-Engineering Services,,A0,NO FISCAL YEAR END,False,40-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1617640,ZG,"ZILLOW GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,WA,OK,True,10-K,,True
+868857,ACM,AECOM,8711.0,Services-Engineering Services,930.0,TX,OK,True,10-K,,True
+1398659,G,Genpact LTD,8742.0,Services-Management Consulting Services,1231.0,D0,OK,False,10-K,,True
+1309108,WEX,WEX Inc.,7389.0,"Services-Business Services, NEC",1231.0,ME,OK,True,10-K,,True
+1759509,LYFT,"Lyft, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,"10-K, 10-K/A",,True
+1297989,EXLS,"ExlService Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
+2090312,MBGL,Mobility Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,VA,NO ANNUAL 10-K DATA,True,none,"No annual 10-K financial data (e.g., recent listing)",False
+1727263,FTDR,"Frontdoor, Inc.",7340.0,Services-To Dwellings & Other Buildings,1231.0,TN,OK,True,10-K,,True
+1782170,RELY,"Remitly Global, Inc.",7389.0,"Services-Business Services, NEC",1231.0,WA,OK,True,10-K,,True
+2011286,AMTM,"Amentum Holdings, Inc.",7389.0,"Services-Business Services, NEC",1002.0,VA,OK,True,10-K,,True
+1703056,ADT,ADT Inc.,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,FL,OK,True,"10-K, 10-K/A",,True
+1657573,XMTR,"Xometry, Inc.",7389.0,"Services-Business Services, NEC",1231.0,MD,OK,True,10-K,,True
+1662991,SEZL,Sezzle Inc.,7389.0,"Services-Business Services, NEC",1231.0,MN,OK,True,"10-K, 10-K/A",,True
+887936,FCN,"FTI CONSULTING, INC",8742.0,Services-Management Consulting Services,1231.0,DC,OK,True,10-K,,True
+1846832,DLO,dLocal Ltd,7389.0,"Services-Business Services, NEC",1231.0,X3,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1841156,PAY,"Paymentus Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX,OK,True,10-K,,True
+102752,VSEC,VSE CORP,8711.0,Services-Engineering Services,1231.0,FL,OK,True,10-K,,True
+851520,EXPO,EXPONENT INC,8742.0,Services-Management Consulting Services,101.0,CA,OK,True,"10-K, 10-K/A",,True
+937098,TNET,"TRINET GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+1032220,MMS,"MAXIMUS, INC.",7389.0,"Services-Business Services, NEC",930.0,VA,OK,True,10-K,,True
+771497,ABM,ABM INDUSTRIES INC /DE/,7340.0,Services-To Dwellings & Other Buildings,1031.0,NY,OK,True,10-K,,True
+1794669,FOUR,"Shift4 Payments, Inc.",7389.0,"Services-Business Services, NEC",1231.0,PA,OK,True,"10-K, 10-K/A",,True
+1289848,HURN,Huron Consulting Group Inc.,8742.0,Services-Management Consulting Services,1231.0,IL,OK,True,10-K,,True
+944148,CBZ,"CBIZ, Inc.",7389.0,"Services-Business Services, NEC",1231.0,OH,OK,True,"10-K, 10-K/A",,True
+1845815,PAYO,Payoneer Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
+1580560,FLYW,Flywire Corp,7389.0,"Services-Business Services, NEC",1231.0,MA,OK,True,10-K,,True
+2032966,TIC,"TIC Solutions, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX,OK,True,"10-K, 10-K/A",,True
+1803599,CNXC,Concentrix Corp,7389.0,"Services-Business Services, NEC",1130.0,CA,OK,True,10-K,,True
+1365135,WU,Western Union CO,7389.0,"Services-Business Services, NEC",1231.0,CO,OK,True,10-K,,True
+1083446,ASTH,"Astrana Health, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA,OK,True,"10-K, 10-K/A",,True
+1362004,ICFI,"ICF International, Inc.",8742.0,Services-Management Consulting Services,1231.0,VA,OK,True,"10-K, 10-K/A",,True
+1479681,NUTX,Nutex Health Inc.,7389.0,"Services-Business Services, NEC",1231.0,TX,OK,True,"10-K, 10-K/A",,True
+1235468,LQDT,LIQUIDITY SERVICES INC,7389.0,"Services-Business Services, NEC",930.0,MD,OK,True,10-K,,True
+1736946,ARLO,"Arlo Technologies, Inc.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,CA,OK,True,10-K,,True
+1094366,RDWR,RADWARE LTD,7389.0,"Services-Business Services, NEC",1231.0,L3,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2065708,ANDG,Andersen Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+1851112,RSKD,RISKIFIED LTD.,7389.0,"Services-Business Services, NEC",1231.0,NY,NO ANNUAL 10-K DATA,True,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1370450,WLDN,"Willdan Group, Inc.",8711.0,Services-Engineering Services,101.0,CA,OK,True,"10-K, 10-K/A",,True
+1702318,AHG,Akso Health Group,7389.0,"Services-Business Services, NEC",331.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1117297,QNST,"QUINSTREET, INC",7389.0,"Services-Business Services, NEC",630.0,CA,OK,True,10-K,,True
+1496443,PAYS,"Paysign, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NV,OK,True,10-K,,True
+1412408,PHR,"Phreesia, Inc.",7389.0,"Services-Business Services, NEC",131.0,DE,OK,True,10-K,,True
+708781,CASS,CASS INFORMATION SYSTEMS INC,7389.0,"Services-Business Services, NEC",1231.0,MO,OK,True,"10-K, 10-K/A",,True
+1847590,BWMN,Bowman Consulting Group Ltd.,8742.0,Services-Management Consulting Services,,VA,OK,True,"10-K, 10-K/A",,True
+1436126,MG,"Mistras Group, Inc.",8711.0,Services-Engineering Services,1231.0,NJ,OK,True,"10-K, 10-K/A, 10-KT",,True
+1818383,MAX,"MediaAlpha, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,10-K,,True
+1653558,PRTH,"Priority Technology Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,GA,OK,True,10-K,,True
+1643615,ONT,"Onterris, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA,OK,True,10-K,,True
+1809104,ALIT,"Alight, Inc. / Delaware",7389.0,"Services-Business Services, NEC",1231.0,IL,OK,True,"10-K, 10-K/A",,True
+1945240,ROMA,Roma Green Finance Ltd,8742.0,Services-Management Consulting Services,331.0,K3,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1776661,ADV,Advantage Solutions Inc.,7389.0,"Services-Business Services, NEC",1231.0,MO,OK,True,"10-K, 10-K/A",,True
+1793229,CTEV,Claritev Corp,7389.0,"Services-Business Services, NEC",1231.0,VA,OK,True,10-K,,True
+1635282,RMNI,"Rimini Street, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NV,OK,True,"10-K, 10-K/A",,True
+1720592,RPAY,Repay Holdings Corp,7389.0,"Services-Business Services, NEC",1231.0,GA,OK,True,"10-K, 10-K/A",,True
+1057379,HCKT,"HACKETT GROUP, INC.",8742.0,Services-Management Consulting Services,1226.0,FL,OK,True,"10-K, 10-K/A",,True
+1762301,FVRR,Fiverr International Ltd.,7389.0,"Services-Business Services, NEC",1231.0,L3,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1644378,RMR,RMR GROUP INC.,8742.0,Services-Management Consulting Services,930.0,MA,OK,True,10-K,,True
+1833835,PSFE,Paysafe Ltd,7389.0,"Services-Business Services, NEC",1231.0,X0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1903508,PPHC,"Public Policy Holding Company, Inc.",8742.0,Services-Management Consulting Services,1231.0,DC,OK,True,"10-K, 10-K/A",,True
+2051985,IRHO,Iron Horse Acquisition II Corp.,7389.0,"Services-Business Services, NEC",1130.0,FL,OK,True,10-K,,True
+1371489,III,Information Services Group Inc.,8742.0,Services-Management Consulting Services,1231.0,CT,OK,True,10-K,,True
+1683695,IMXI,"International Money Express, Inc.",7389.0,"Services-Business Services, NEC",1231.0,FL,OK,True,"10-K, 10-K/A",,True
+1835724,ZH,Zhihu Inc.,7389.0,"Services-Business Services, NEC",1231.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1015383,POWW,Outdoor Holding Co,7389.0,"Services-Business Services, NEC",331.0,GA,OK,True,"10-K, 10-K/A, 10-KT",,True
+1897087,SUPX,SuperX AI Technology Ltd,8742.0,Services-Management Consulting Services,630.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1862935,CURR,Currenc Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,,OK,False,"10-K, 20-F",,True
+1393584,AMWL,American Well Corp,7389.0,"Services-Business Services, NEC",1231.0,MA,OK,True,"10-K, 10-K/A",,True
+1677703,CNDT,CONDUENT Inc,7389.0,"Services-Business Services, NEC",1231.0,NJ,OK,True,10-K,,True
+2058349,EFTY,"ETOILES CAPITAL GROUP CO., LTD",8742.0,Services-Management Consulting Services,1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1393883,DHX,"DHI GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,CO,OK,True,10-K,,True
+1320760,TSSI,"TSS, Inc.",8742.0,Services-Management Consulting Services,1231.0,TX,OK,True,10-K,,True
+1755058,AUC,ATIF Holdings Ltd,8742.0,Services-Management Consulting Services,731.0,CA,OK,True,"10-K, 20-F",,True
+1729173,UXIN,Uxin Ltd,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1448431,OPRX,OptimizeRx Corp,7389.0,"Services-Business Services, NEC",1231.0,MA,OK,True,"10-K, 10-K/A",,True
+1982961,EGG,ENIGMATIG LTD,8742.0,Services-Management Consulting Services,930.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1682149,DVLT,Datavault AI Inc.,7389.0,"Services-Business Services, NEC",1231.0,OR,OK,True,10-K,,True
+1419275,RTB,"RTB Digital, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA,OK,True,"10-K, 10-K/A",,True
+1971115,RYDE,Ryde Group Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+318833,TISI,TEAM INC,7600.0,Services-Miscellaneous Repair Services,1231.0,TX,OK,True,"10-K, 10-KT",,True
+2007846,JLHL,Julong Holding Ltd,8711.0,Services-Engineering Services,,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2016221,MACI,Melar Acquisition Corp. I/Cayman,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
+1084765,RGP,"RESOURCES CONNECTION, INC.",7389.0,"Services-Business Services, NEC",531.0,TX,OK,True,10-K,,True
+1986694,BBCI,Bradbury Capital Inc.,7389.0,"Services-Business Services, NEC",,,NO FISCAL YEAR END,False,none,Non-U.S. headquarters; mandate requires U.S. companies,False
+1983550,TDTH,Trident Digital Tech Holdings Ltd,7389.0,"Services-Business Services, NEC",,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1437226,MHH,"Mastech Digital, Inc.",8742.0,Services-Management Consulting Services,1231.0,PA,OK,True,10-K,,True
+1386301,RSSS,"Research Solutions, Inc.",7389.0,"Services-Business Services, NEC",630.0,NV,OK,True,"10-K, 10-K/A",,True
+1875609,SWVL,Swvl Holdings Corp,7389.0,"Services-Business Services, NEC",1231.0,C0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1877939,CTM,"Castellum, Inc.",8742.0,Services-Management Consulting Services,1231.0,VA,OK,True,10-K,,True
+2001794,CIGL,Concorde International Group Ltd.,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1158172,SCOR,"COMSCORE, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA,OK,True,"10-K, 10-K/A",,True
+880984,ACFN,"ACORN ENERGY, INC.",8711.0,Services-Engineering Services,1231.0,DE,OK,True,10-K,,True
+849145,HGBL,Heritage Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA,OK,True,"10-K, 10-K/A",,True
+1839530,XBP,"XBP Global Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX,OK,True,"10-K, 10-K/A",,True
+2038378,ACCL,Acco Group Holdings Ltd,8742.0,Services-Management Consulting Services,,K3,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1743340,TC,Token Cat Ltd,7389.0,"Services-Business Services, NEC",1231.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1853044,AERT,"Aeries Technology, Inc.",8742.0,Services-Management Consulting Services,331.0,,OK,False,"10-K, 10-K/A",,True
+2012600,RYOJ,"rYojbaba Co., Ltd.",8742.0,Services-Management Consulting Services,1231.0,M0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1941536,BAER,"Bridger Aerospace Group Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,MT,OK,True,"10-K, 10-K/A",,True
+1974044,MNY,MoneyHero Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1066923,FTFT,Future FinTech Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,"10-K, 10-K/A",,True
+2011458,ZTG,Zenta Group Co Ltd,8742.0,Services-Management Consulting Services,930.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+843006,ACCS,ACCESS Newswire Inc.,8742.0,Services-Management Consulting Services,1231.0,NC,OK,True,"10-K, 10-K/A",,True
+1787518,DFNS,T3 Defense Inc.,8742.0,Services-Management Consulting Services,1231.0,NY,OK,True,"10-K, 10-K/A, 10-KT",,True
+1891944,PMEC,Primech Holdings Ltd,7340.0,Services-To Dwellings & Other Buildings,,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2060083,FOFO,"Hang Feng Technology Innovation Co., Ltd.",8742.0,Services-Management Consulting Services,,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1743971,MOGU,MOGU Inc.,7389.0,"Services-Business Services, NEC",331.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1876766,LICN,Lichen International Ltd,8742.0,Services-Management Consulting Services,1231.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1597846,GRNQ,Greenpro Capital Corp.,8742.0,Services-Management Consulting Services,1231.0,,OK,False,"10-K, 10-K/A",,True
+2030954,XHLD,"TEN Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,PA,OK,True,"10-K, 10-K/A",,True
+1781193,QH,QUHUO Ltd,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1777319,CISO,"CISO Global, Inc.",8742.0,Services-Management Consulting Services,1231.0,AZ,OK,True,"10-K, 10-K/A",,True
+1314196,OLB,"OLB GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,"10-K, 10-K/A",,True
+1998560,AXNX,Axonex AI Group Ltd,7389.0,"Services-Business Services, NEC",,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1818274,ARAI,Arrive AI Inc.,7340.0,Services-To Dwellings & Other Buildings,1231.0,IN,OK,True,10-K,,True
+1779476,KRKR,36Kr Holdings Inc.,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1804469,GFAI,"Guardforce AI Co., Ltd.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1811216,BAOS,Baosheng Media Group Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1916416,INTJ,Intelligent Group Ltd,8742.0,Services-Management Consulting Services,,,NO FISCAL YEAR END,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1769768,EJH,E-Home Household Service Holdings Ltd,7600.0,Services-Miscellaneous Repair Services,630.0,F4,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+2032545,CJMB,CALLAN JMB INC.,7389.0,"Services-Business Services, NEC",1231.0,TX,OK,True,10-K,,True
+2036307,OFAL,OFA Group,8711.0,Services-Engineering Services,331.0,CA,OK,True,"10-K, 20-F",,True
+1821424,UK,Ucommune International Ltd,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1905956,TGL,TREASURE GLOBAL INC,7389.0,"Services-Business Services, NEC",630.0,NY,OK,True,"10-K, 10-K/A",,True
+1969863,SUGP,SU Group Holdings Ltd,7381.0,"Services-Detective, Guard & Armored Car Services",930.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1938865,DPU,Nexpu Ltd.,7389.0,"Services-Business Services, NEC",1231.0,,NO ANNUAL 10-K DATA,False,20-F,Foreign private issuer (files 20-F/40-F); mandate requires U.S. companies,False
+1637873,ACVA,ACV Auctions Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY,OK,True,10-K,,True
