@@ -13,6 +13,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 929869,RELX,RELX PLC,7389.0,"Services-Business Services, NEC",1231.0,X0
 1065088,EBAY,EBAY INC,7389.0,"Services-Business Services, NEC",1231.0,CA
 1633917,PYPL,"PayPal Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
+1703399,SE,Sea Ltd,7380.0,Services-Miscellaneous Business Services,1231.0,U0
 1408198,MSCI,MSCI Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
 1175454,CPAY,"CORPAY, INC.",7389.0,"Services-Business Services, NEC",1231.0,GA
 798354,FISV,FISERV INC,7389.0,"Services-Business Services, NEC",1231.0,WI
@@ -29,10 +30,12 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1552033,TRU,TransUnion,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,IL
 1046102,RBA,RB GLOBAL INC.,7389.0,"Services-Business Services, NEC",1231.0,
 1579241,ALLE,Allegion plc,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,
+749251,IT,GARTNER INC,8741.0,Services-Management Services,1231.0,CT
 1057352,CSGP,"COSTAR GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA
 1086222,AKAM,AKAMAI TECHNOLOGIES INC,7389.0,"Services-Business Services, NEC",1231.0,MA
 1579091,CART,Maplebear Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA
 1855612,GRAB,Grab Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+930157,RTO,RENTOKIL INITIAL PLC /FI,8741.0,Services-Management Services,1231.0,
 2099039,WSE,Wise Group plc,7389.0,"Services-Business Services, NEC",331.0,
 2080845,PAYP,PayPay Corp,7389.0,"Services-Business Services, NEC",331.0,
 1443646,BAH,Booz Allen Hamilton Holding Corp,8742.0,Services-Management Consulting Services,331.0,VA
@@ -66,6 +69,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 944148,CBZ,"CBIZ, Inc.",7389.0,"Services-Business Services, NEC",1231.0,OH
 1845815,PAYO,Payoneer Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
 1580560,FLYW,Flywire Corp,7389.0,"Services-Business Services, NEC",1231.0,MA
+1601548,VVX,"V2X, Inc.",8744.0,Services-Facilities Support Management Services,1231.0,VA
 2032966,TIC,"TIC Solutions, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX
 1803599,CNXC,Concentrix Corp,7389.0,"Services-Business Services, NEC",1130.0,CA
 1365135,WU,Western Union CO,7389.0,"Services-Business Services, NEC",1231.0,CO
@@ -74,6 +78,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1479681,NUTX,Nutex Health Inc.,7389.0,"Services-Business Services, NEC",1231.0,TX
 1235468,LQDT,LIQUIDITY SERVICES INC,7389.0,"Services-Business Services, NEC",930.0,MD
 1736946,ARLO,"Arlo Technologies, Inc.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,CA
+1669811,DFIN,"Donnelley Financial Solutions, Inc.",7380.0,Services-Miscellaneous Business Services,1231.0,PA
 1094366,RDWR,RADWARE LTD,7389.0,"Services-Business Services, NEC",1231.0,L3
 2065708,ANDG,Andersen Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA
 1851112,RSKD,RISKIFIED LTD.,7389.0,"Services-Business Services, NEC",1231.0,NY
@@ -87,6 +92,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1436126,MG,"Mistras Group, Inc.",8711.0,Services-Engineering Services,1231.0,NJ
 1818383,MAX,"MediaAlpha, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
 1653558,PRTH,"Priority Technology Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,GA
+1628908,EVH,"Evolent Health, Inc.",8741.0,Services-Management Services,1231.0,VA
 1643615,ONT,"Onterris, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA
 1809104,ALIT,"Alight, Inc. / Delaware",7389.0,"Services-Business Services, NEC",1231.0,IL
 1945240,ROMA,Roma Green Finance Ltd,8742.0,Services-Management Consulting Services,331.0,K3
@@ -127,6 +133,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1437226,MHH,"Mastech Digital, Inc.",8742.0,Services-Management Consulting Services,1231.0,PA
 1386301,RSSS,"Research Solutions, Inc.",7389.0,"Services-Business Services, NEC",630.0,NV
 1875609,SWVL,Swvl Holdings Corp,7389.0,"Services-Business Services, NEC",1231.0,C0
+1462418,ASPS,ALTISOURCE PORTFOLIO SOLUTIONS S.A.,7380.0,Services-Miscellaneous Business Services,1231.0,N4
 1877939,CTM,"Castellum, Inc.",8742.0,Services-Management Consulting Services,1231.0,VA
 2001794,CIGL,Concorde International Group Ltd.,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0
 1158172,SCOR,"COMSCORE, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA
@@ -138,7 +145,9 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1853044,AERT,"Aeries Technology, Inc.",8742.0,Services-Management Consulting Services,331.0,
 2012600,RYOJ,"rYojbaba Co., Ltd.",8742.0,Services-Management Consulting Services,1231.0,M0
 1941536,BAER,"Bridger Aerospace Group Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,MT
+2031688,ANPA,Rich Sparkle Holdings Ltd,7380.0,Services-Miscellaneous Business Services,,
 1974044,MNY,MoneyHero Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+1948697,SPPL,SIMPPLE LTD.,8744.0,Services-Facilities Support Management Services,,
 1066923,FTFT,Future FinTech Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
 2011458,ZTG,Zenta Group Co Ltd,8742.0,Services-Management Consulting Services,930.0,F4
 843006,ACCS,ACCESS Newswire Inc.,8742.0,Services-Management Consulting Services,1231.0,NC
@@ -148,6 +157,7 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1743971,MOGU,MOGU Inc.,7389.0,"Services-Business Services, NEC",331.0,
 1876766,LICN,Lichen International Ltd,8742.0,Services-Management Consulting Services,1231.0,F4
 1597846,GRNQ,Greenpro Capital Corp.,8742.0,Services-Management Consulting Services,1231.0,
+1981519,MMA,MIXED MARTIAL ARTS GROUP LTD,7380.0,Services-Miscellaneous Business Services,630.0,
 2030954,XHLD,"TEN Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,PA
 1781193,QH,QUHUO Ltd,7389.0,"Services-Business Services, NEC",1231.0,
 1777319,CISO,"CISO Global, Inc.",8742.0,Services-Management Consulting Services,1231.0,AZ
@@ -157,12 +167,17 @@ cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
 1779476,KRKR,36Kr Holdings Inc.,7389.0,"Services-Business Services, NEC",1231.0,
 1804469,GFAI,"Guardforce AI Co., Ltd.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0
 1811216,BAOS,Baosheng Media Group Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+2041338,TDIC,Dreamland Ltd,8741.0,Services-Management Services,331.0,K3
 1916416,INTJ,Intelligent Group Ltd,8742.0,Services-Management Consulting Services,,
 1769768,EJH,E-Home Household Service Holdings Ltd,7600.0,Services-Miscellaneous Repair Services,630.0,F4
 2032545,CJMB,CALLAN JMB INC.,7389.0,"Services-Business Services, NEC",1231.0,TX
+1776067,OCG,Oriental Culture Holding LTD,7380.0,Services-Miscellaneous Business Services,1231.0,
 2036307,OFAL,OFA Group,8711.0,Services-Engineering Services,331.0,CA
+2012096,PMAX,Powell Max Ltd,7380.0,Services-Miscellaneous Business Services,,K3
 1821424,UK,Ucommune International Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+1930510,VCIG,VCI Global Ltd,8744.0,Services-Facilities Support Management Services,1231.0,
 1905956,TGL,TREASURE GLOBAL INC,7389.0,"Services-Business Services, NEC",630.0,NY
 1969863,SUGP,SU Group Holdings Ltd,7381.0,"Services-Detective, Guard & Armored Car Services",930.0,
+886206,FC,FRANKLIN COVEY CO,8741.0,Services-Management Services,831.0,UT
 1938865,DPU,Nexpu Ltd.,7389.0,"Services-Business Services, NEC",1231.0,
 1637873,ACVA,ACV Auctions Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
