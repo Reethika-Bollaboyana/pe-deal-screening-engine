@@ -17,6 +17,7 @@ This document defines every variable used in the Ridgeline Capital deal screenin
 | Negative denominators | Ratios with zero or negative EBITDA are marked NM (not meaningful) |
 | Sign convention | Cash outflows (CapEx, acquisitions) stored as positive numbers; formulas subtract them |
 | Traceability | Every financial figure keeps the accession number of its source filing |
+| D&A fallback | If no combined D&A tag is reported: Depreciation + Amortization of intangible assets only. Other amortization (capitalized software, finance leases, financing costs) is excluded because it may already be inside depreciation or relates to financing; this can only understate EBITDA. If no intangible amortization tag exists, depreciation alone is used |
 
 ## Table grain
 

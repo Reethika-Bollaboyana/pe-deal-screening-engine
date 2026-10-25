@@ -94,6 +94,29 @@ def get_annual_values(data, candidate_tags, fye_mmdd, tolerance_days=10):
     combined["fiscal_year"] = (combined["end"] - pd.Timedelta(days=15)).dt.year
     return combined.sort_values("end")[["fiscal_year", "end", "value_000s", "tag", "accn"]]
 
+def fallback_d_and_a(data, fye_mmdd):
+    """D&A from components, for companies with no combined D&A tag.
+
+    Rule (conservative): Depreciation + AmortizationOfIntangibleAssets.
+    Other amortization (capitalized software, finance leases, financing costs)
+    is excluded: it may already be inside Depreciation, or is not operating D&A.
+    If there is no intangible amortization tag, Depreciation alone is used.
+    """
+    dep = get_annual_values(data, ["Depreciation"], fye_mmdd)
+    if dep is None or dep.empty:
+        return None
+
+    result = dep[["fiscal_year", "end", "value_000s", "accn"]].copy()
+    amort = get_annual_values(data, ["AmortizationOfIntangibleAssets"], fye_mmdd)
+    if amort is not None and not amort.empty:
+        amort = amort[["fiscal_year", "value_000s"]].rename(columns={"value_000s": "amort"})
+        result = result.merge(amort, on="fiscal_year", how="left")
+    else:
+        result["amort"] = 0.0
+
+    result["value_000s"] = result["value_000s"] + result["amort"].fillna(0)
+    result["tag"] = "Depreciation + AmortizationOfIntangibleAssets"
+    return result[["fiscal_year", "end", "value_000s", "tag", "accn"]]
 
 def extract_company(data, fye_mmdd):
     """Extract every variable in TAGS for one company, in long format (one row per year and variable)."""
@@ -102,6 +125,15 @@ def extract_company(data, fye_mmdd):
         table = get_annual_values(data, tags, fye_mmdd)
         if table is not None and not table.empty:
             pieces.append(table.assign(variable=variable))
+
+    # D&A fallback: fill only the fiscal years with no combined D&A tag
+    fallback = fallback_d_and_a(data, fye_mmdd)
+    if fallback is not None:
+        reported = [p for p in pieces if p["variable"].iloc[0] == "d_and_a"]
+        years_reported = set(reported[0]["fiscal_year"]) if reported else set()
+        extra = fallback[~fallback["fiscal_year"].isin(years_reported)]
+        if not extra.empty:
+            pieces.append(extra.assign(variable="d_and_a"))
 
     if not pieces:
         return None

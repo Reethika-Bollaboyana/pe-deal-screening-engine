@@ -676,6 +676,8 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1467373,ACN,2024,2024-08-31,21120179.0,Goodwill,0001467373-26-000049,goodwill
 1467373,ACN,2025,2025-08-31,22536416.0,Goodwill,0001467373-26-000049,goodwill
 1467373,ACN,2026,2026-08-31,26819458.0,Goodwill,0001467373-26-000049,goodwill
+1467373,ACN,2025,2025-08-31,1368385.0,Depreciation + AmortizationOfIntangibleAssets,0001467373-26-000049,d_and_a
+1467373,ACN,2026,2026-08-31,1239157.0,Depreciation + AmortizationOfIntangibleAssets,0001467373-26-000049,d_and_a
 1543151,UBER,2017,2017-12-31,7932000.0,Revenues,0001543151-20-000010,revenue
 1543151,UBER,2018,2018-12-31,10433000.0,Revenues,0001543151-21-000014,revenue
 1543151,UBER,2019,2019-12-31,13000000.0,Revenues,0001543151-22-000008,revenue
@@ -1054,6 +1056,7 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 64040,SPGI,2023,2023-12-31,34850000.0,Goodwill,0000064040-26-000013,goodwill
 64040,SPGI,2024,2024-12-31,34917000.0,Goodwill,0000064040-26-000013,goodwill
 64040,SPGI,2025,2025-12-31,36475000.0,Goodwill,0000064040-26-000013,goodwill
+64040,SPGI,2007,2007-12-31,160989.0,Depreciation + AmortizationOfIntangibleAssets,0000950123-10-016328,d_and_a
 1559720,ABNB,2019,2019-12-31,4805239.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001559720-22-000006,revenue
 1559720,ABNB,2020,2020-12-31,3378000.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001559720-23-000003,revenue
 1559720,ABNB,2021,2021-12-31,5992000.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001559720-24-000006,revenue
@@ -1125,6 +1128,9 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1559720,ABNB,2023,2023-12-31,752000.0,Goodwill,0001559720-26-000004,goodwill
 1559720,ABNB,2024,2024-12-31,750000.0,Goodwill,0001559720-26-000004,goodwill
 1559720,ABNB,2025,2025-12-31,754000.0,Goodwill,0001559720-26-000004,goodwill
+1559720,ABNB,2023,2023-12-31,31000.0,Depreciation + AmortizationOfIntangibleAssets,0001559720-26-000004,d_and_a
+1559720,ABNB,2024,2024-12-31,16000.0,Depreciation + AmortizationOfIntangibleAssets,0001559720-26-000004,d_and_a
+1559720,ABNB,2025,2025-12-31,17000.0,Depreciation + AmortizationOfIntangibleAssets,0001559720-26-000004,d_and_a
 1099590,MELI,2016,2016-12-31,844396.0,Revenues,0001562762-19-000047,revenue
 1099590,MELI,2017,2017-12-31,1216542.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001562762-20-000055,revenue
 1099590,MELI,2018,2018-12-31,1439653.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001562762-21-000079,revenue
@@ -2726,6 +2732,9 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 798354,FISV,2023,2023-12-31,37205000.0,Goodwill,0000798354-26-000009,goodwill
 798354,FISV,2024,2024-12-31,36584000.0,Goodwill,0000798354-26-000009,goodwill
 798354,FISV,2025,2025-12-31,37703000.0,Goodwill,0000798354-26-000009,goodwill
+798354,FISV,2008,2008-12-31,103000.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-11-045000,d_and_a
+798354,FISV,2024,2024-12-31,2889000.0,Depreciation + AmortizationOfIntangibleAssets,0000798354-26-000009,d_and_a
+798354,FISV,2025,2025-12-31,2969000.0,Depreciation + AmortizationOfIntangibleAssets,0000798354-26-000009,d_and_a
 1123360,GPN,2016,2016-12-31,3370976.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001123360-19-000008,revenue
 1123360,GPN,2017,2017-12-31,3975163.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001123360-20-000009,revenue
 1123360,GPN,2018,2018-12-31,3366366.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001123360-21-000009,revenue
@@ -4056,6 +4065,14 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1796209,APG,2023,2023-12-31,2471000.0,Goodwill,0001628280-26-011620,goodwill
 1796209,APG,2024,2024-12-31,2894000.0,Goodwill,0001628280-26-011620,goodwill
 1796209,APG,2025,2025-12-31,3167000.0,Goodwill,0001628280-26-011620,goodwill
+1796209,APG,2018,2018-12-31,109000.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-21-014986,d_and_a
+1796209,APG,2019,2019-12-31,69000.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-22-002474,d_and_a
+1796209,APG,2020,2020-12-31,263000.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-23-005456,d_and_a
+1796209,APG,2021,2021-12-31,202000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-24-007573,d_and_a
+1796209,APG,2022,2022-12-31,304000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-25-008189,d_and_a
+1796209,APG,2023,2023-12-31,303000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-26-011620,d_and_a
+1796209,APG,2024,2024-12-31,302000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-26-011620,d_and_a
+1796209,APG,2025,2025-12-31,327000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-26-011620,d_and_a
 1552033,TRU,2016,2016-12-31,1704900.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001552033-19-000010,revenue
 1552033,TRU,2017,2017-12-31,1933800.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001552033-20-000014,revenue
 1552033,TRU,2018,2018-12-31,2317200.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001552033-21-000008,revenue
@@ -6452,6 +6469,24 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1398659,G,2023,2023-12-31,1683782.0,Goodwill,0001398659-26-000004,goodwill
 1398659,G,2024,2024-12-31,1669769.0,Goodwill,0001398659-26-000004,goodwill
 1398659,G,2025,2025-12-31,1781116.0,Goodwill,0001398659-26-000004,goodwill
+1398659,G,2008,2008-12-31,92066.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-11-052096,d_and_a
+1398659,G,2009,2009-12-31,79587.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-12-087932,d_and_a
+1398659,G,2010,2010-12-31,74156.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-13-087279,d_and_a
+1398659,G,2011,2011-12-31,78489.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-14-076650,d_and_a
+1398659,G,2012,2012-12-31,79322.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-15-068826,d_and_a
+1398659,G,2013,2013-12-31,76460.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-16-480871,d_and_a
+1398659,G,2014,2014-12-31,79607.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-17-003076,d_and_a
+1398659,G,2015,2015-12-31,82799.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-18-004031,d_and_a
+1398659,G,2016,2016-12-31,81736.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-19-005767,d_and_a
+1398659,G,2017,2017-12-31,94915.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-20-008158,d_and_a
+1398659,G,2018,2018-12-31,103718.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-21-009746,d_and_a
+1398659,G,2019,2019-12-31,128713.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-22-000009,d_and_a
+1398659,G,2020,2020-12-31,159842.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-23-000009,d_and_a
+1398659,G,2021,2021-12-31,167572.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-24-000031,d_and_a
+1398659,G,2022,2022-12-31,129516.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-25-000035,d_and_a
+1398659,G,2023,2023-12-31,103993.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-26-000004,d_and_a
+1398659,G,2024,2024-12-31,96254.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-26-000004,d_and_a
+1398659,G,2025,2025-12-31,94959.0,Depreciation + AmortizationOfIntangibleAssets,0001398659-26-000004,d_and_a
 1309108,WEX,2016,2016-12-31,1012488.0,Revenues,0001309108-19-000020,revenue
 1309108,WEX,2017,2017-12-31,1248577.0,Revenues,0001309108-20-000024,revenue
 1309108,WEX,2018,2018-12-31,996763.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001309108-21-000018,revenue
@@ -7108,6 +7143,7 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1727263,FTDR,2023,2023-12-31,503000.0,Goodwill,0000950170-25-028375,goodwill
 1727263,FTDR,2024,2024-12-31,967000.0,Goodwill,0001193125-26-076548,goodwill
 1727263,FTDR,2025,2025-12-31,959000.0,Goodwill,0001193125-26-076548,goodwill
+1727263,FTDR,2016,2016-12-31,14000.0,Depreciation + AmortizationOfIntangibleAssets,0001727263-19-000003,d_and_a
 1782170,RELY,2019,2019-12-31,126567.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001782170-22-000048,revenue
 1782170,RELY,2020,2020-12-31,256956.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001782170-23-000010,revenue
 1782170,RELY,2021,2021-12-31,458605.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001782170-24-000037,revenue
@@ -7233,6 +7269,10 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 2011286,AMTM,2023,2023-09-29,2891000.0,Goodwill,0001628280-25-053993,goodwill
 2011286,AMTM,2024,2024-09-27,5556000.0,Goodwill,0001628280-25-053993,goodwill
 2011286,AMTM,2025,2025-10-03,5703000.0,Goodwill,0001628280-25-053993,goodwill
+2011286,AMTM,2022,2022-09-30,292000.0,Depreciation + AmortizationOfIntangibleAssets,0002011286-24-000072,d_and_a
+2011286,AMTM,2023,2023-09-29,325000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-25-053993,d_and_a
+2011286,AMTM,2024,2024-09-27,251000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-25-053993,d_and_a
+2011286,AMTM,2025,2025-10-03,519000.0,Depreciation + AmortizationOfIntangibleAssets,0001628280-25-053993,d_and_a
 1703056,ADT,2019,2019-12-31,5125657.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001703056-22-000042,revenue
 1703056,ADT,2020,2020-12-31,5314787.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001703056-23-000046,revenue
 1703056,ADT,2021,2021-12-31,4202723.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001703056-24-000020,revenue
@@ -8365,6 +8405,13 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 937098,TNET,2023,2023-12-31,462000.0,Goodwill,0000937098-26-000010,goodwill
 937098,TNET,2024,2024-12-31,461000.0,Goodwill,0000937098-26-000010,goodwill
 937098,TNET,2025,2025-12-31,461000.0,Goodwill,0000937098-26-000010,goodwill
+937098,TNET,2019,2019-12-31,46000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-22-000048,d_and_a
+937098,TNET,2020,2020-12-31,47000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-23-000028,d_and_a
+937098,TNET,2021,2021-12-31,59000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-24-000025,d_and_a
+937098,TNET,2022,2022-12-31,64000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-25-000016,d_and_a
+937098,TNET,2023,2023-12-31,72000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-26-000010,d_and_a
+937098,TNET,2024,2024-12-31,75000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-26-000010,d_and_a
+937098,TNET,2025,2025-12-31,66000.0,Depreciation + AmortizationOfIntangibleAssets,0000937098-26-000010,d_and_a
 1032220,MMS,2009,2009-09-30,720108.0,Revenues,0001104659-11-063523,revenue
 1032220,MMS,2010,2010-09-30,831749.0,Revenues,0001104659-12-078644,revenue
 1032220,MMS,2011,2011-09-30,929633.0,Revenues,0001047469-13-010633,revenue
@@ -9623,6 +9670,13 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1803599,CNXC,2023,2023-11-30,5078668.0,Goodwill,0001803599-26-000027,goodwill
 1803599,CNXC,2024,2024-11-30,4986967.0,Goodwill,0001803599-26-000027,goodwill
 1803599,CNXC,2025,2025-11-30,3671746.0,Goodwill,0001803599-26-000027,goodwill
+1803599,CNXC,2019,2019-11-30,139174.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-22-000025,d_and_a
+1803599,CNXC,2020,2020-11-30,129283.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-23-000016,d_and_a
+1803599,CNXC,2021,2021-11-30,277175.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-24-000011,d_and_a
+1803599,CNXC,2022,2022-11-30,309537.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-25-000022,d_and_a
+1803599,CNXC,2023,2023-11-30,388295.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-26-000027,d_and_a
+1803599,CNXC,2024,2024-11-30,705845.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-26-000027,d_and_a
+1803599,CNXC,2025,2025-11-30,660433.0,Depreciation + AmortizationOfIntangibleAssets,0001803599-26-000027,d_and_a
 1365135,WU,2007,2007-12-31,4900200.0,Revenues,0000950123-10-018216,revenue
 1365135,WU,2008,2008-12-31,5282000.0,Revenues,0000950123-11-018841,revenue
 1365135,WU,2009,2009-12-31,5083600.0,Revenues,0001193125-12-078259,revenue
@@ -9800,6 +9854,12 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1365135,WU,2023,2023-12-31,2034600.0,Goodwill,0000950170-25-024137,goodwill
 1365135,WU,2024,2024-12-31,2059600.0,Goodwill,0001193125-26-061340,goodwill
 1365135,WU,2025,2025-12-31,2098500.0,Goodwill,0001193125-26-061340,goodwill
+1365135,WU,2007,2007-12-31,49100.0,Depreciation + AmortizationOfIntangibleAssets,0000950123-10-018216,d_and_a
+1365135,WU,2021,2021-12-31,208200.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-24-018751,d_and_a
+1365135,WU,2022,2022-12-31,183800.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-25-024137,d_and_a
+1365135,WU,2023,2023-12-31,183600.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-26-061340,d_and_a
+1365135,WU,2024,2024-12-31,179100.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-26-061340,d_and_a
+1365135,WU,2025,2025-12-31,165400.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-26-061340,d_and_a
 1083446,ASTH,2017,2017-12-31,356355.93,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-20-003626,revenue
 1083446,ASTH,2018,2018-12-31,519908.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-21-004679,revenue
 1083446,ASTH,2019,2019-12-31,560618.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-22-004291,revenue
@@ -10322,6 +10382,12 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1479681,NUTX,2023,2023-12-31,17066.0,Goodwill,0001628280-26-015168,goodwill
 1479681,NUTX,2024,2024-12-31,13919.0,Goodwill,0001628280-26-015168,goodwill
 1479681,NUTX,2025,2025-12-31,13919.0,Goodwill,0001628280-26-015168,goodwill
+1479681,NUTX,2010,2010-12-31,1.496,Depreciation + AmortizationOfIntangibleAssets,0001211524-12-000050,d_and_a
+1479681,NUTX,2011,2011-12-31,5.915,Depreciation + AmortizationOfIntangibleAssets,0001211524-13-000183,d_and_a
+1479681,NUTX,2012,2012-12-31,8.75,Depreciation + AmortizationOfIntangibleAssets,0001211524-14-000027,d_and_a
+1479681,NUTX,2015,2015-12-31,0.662,Depreciation + AmortizationOfIntangibleAssets,0001211524-17-000046,d_and_a
+1479681,NUTX,2016,2016-12-31,0.473,Depreciation + AmortizationOfIntangibleAssets,0001607062-18-000127,d_and_a
+1479681,NUTX,2017,2017-12-31,1.138,Depreciation + AmortizationOfIntangibleAssets,0001607062-18-000127,d_and_a
 1235468,LQDT,2017,2017-09-30,270015.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001235468-19-000042,revenue
 1235468,LQDT,2018,2018-09-30,224514.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001235468-20-000206,revenue
 1235468,LQDT,2019,2019-09-30,226525.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001235468-21-000173,revenue
@@ -11430,6 +11496,11 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 708781,CASS,2023,2023-12-31,12304.0,Goodwill,0000708781-26-000010,goodwill
 708781,CASS,2024,2024-12-31,16333.0,Goodwill,0000708781-26-000010,goodwill
 708781,CASS,2025,2025-12-31,16164.0,Goodwill,0000708781-26-000010,goodwill
+708781,CASS,2021,2021-12-31,5172.0,Depreciation + AmortizationOfIntangibleAssets,0000708781-24-000023,d_and_a
+708781,CASS,2022,2022-12-31,4701.0,Depreciation + AmortizationOfIntangibleAssets,0000708781-25-000018,d_and_a
+708781,CASS,2023,2023-12-31,4646.0,Depreciation + AmortizationOfIntangibleAssets,0000708781-26-000010,d_and_a
+708781,CASS,2024,2024-12-31,5725.0,Depreciation + AmortizationOfIntangibleAssets,0000708781-26-000010,d_and_a
+708781,CASS,2025,2025-12-31,7201.0,Depreciation + AmortizationOfIntangibleAssets,0000708781-26-000010,d_and_a
 1847590,BWMN,2021,2021-12-31,149970.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-23-008120,revenue
 1847590,BWMN,2022,2022-12-31,261714.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-24-010652,revenue
 1847590,BWMN,2023,2023-12-31,346256.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-25-012365,revenue
@@ -11750,6 +11821,11 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1818383,MAX,2023,2023-12-31,47739.0,Goodwill,0001818383-26-000049,goodwill
 1818383,MAX,2024,2024-12-31,47739.0,Goodwill,0001818383-26-000049,goodwill
 1818383,MAX,2025,2025-12-31,47739.0,Goodwill,0001818383-26-000049,goodwill
+1818383,MAX,2021,2021-12-31,3353.0,Depreciation + AmortizationOfIntangibleAssets,0001818383-24-000011,d_and_a
+1818383,MAX,2022,2022-12-31,6147.0,Depreciation + AmortizationOfIntangibleAssets,0001818383-25-000022,d_and_a
+1818383,MAX,2023,2023-12-31,7270.0,Depreciation + AmortizationOfIntangibleAssets,0001818383-26-000049,d_and_a
+1818383,MAX,2024,2024-12-31,6682.0,Depreciation + AmortizationOfIntangibleAssets,0001818383-26-000049,d_and_a
+1818383,MAX,2025,2025-12-31,3252.0,Depreciation + AmortizationOfIntangibleAssets,0001818383-26-000049,d_and_a
 1653558,PRTH,2016,2016-12-31,344114.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-19-003666,revenue
 1653558,PRTH,2017,2017-12-31,382167.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001653558-20-000015,revenue
 1653558,PRTH,2018,2018-12-31,375822.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001653558-21-000040,revenue
@@ -12078,6 +12154,8 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1809104,ALIT,2023,2023-12-31,3212000.0,Goodwill,0001809104-25-000062,goodwill
 1809104,ALIT,2024,2024-12-31,3212000.0,Goodwill,0001628280-26-011108,goodwill
 1809104,ALIT,2025,2025-12-31,83000.0,Goodwill,0001628280-26-011108,goodwill
+1809104,ALIT,2019,2019-12-31,253000.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-22-003360,d_and_a
+1809104,ALIT,2020,2020-12-31,291000.0,Depreciation + AmortizationOfIntangibleAssets,0000950170-22-003360,d_and_a
 1776661,ADV,2018,2018-12-31,3707628.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001193125-21-082812,revenue
 1776661,ADV,2019,2019-12-31,3785063.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000950170-22-002524,revenue
 1776661,ADV,2020,2020-12-31,3155671.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000950170-23-005522,revenue
@@ -12281,6 +12359,14 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1793229,CTEV,2023,2023-12-31,3829002.0,Goodwill,0001793229-26-000017,goodwill
 1793229,CTEV,2024,2024-12-31,2403140.0,Goodwill,0001793229-26-000017,goodwill
 1793229,CTEV,2025,2025-12-31,2405853.0,Goodwill,0001793229-26-000017,goodwill
+1793229,CTEV,2018,2018-12-31,386321.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-21-000004,d_and_a
+1793229,CTEV,2019,2019-12-31,389860.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-22-000021,d_and_a
+1793229,CTEV,2020,2020-12-31,395274.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-23-000013,d_and_a
+1793229,CTEV,2021,2021-12-31,405095.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-24-000012,d_and_a
+1793229,CTEV,2022,2022-12-31,409292.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-24-000012,d_and_a
+1793229,CTEV,2023,2023-12-31,420017.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-26-000017,d_and_a
+1793229,CTEV,2024,2024-12-31,432073.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-26-000017,d_and_a
+1793229,CTEV,2025,2025-12-31,445426.0,Depreciation + AmortizationOfIntangibleAssets,0001793229-26-000017,d_and_a
 1635282,RMNI,2016,2016-12-31,160175.0,Revenues,0001635282-19-000016,revenue
 1635282,RMNI,2017,2017-12-31,214860.0,Revenues,0001635282-20-000014,revenue
 1635282,RMNI,2018,2018-12-31,253460.0,Revenues,0001635282-21-000023,revenue
@@ -12674,6 +12760,17 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1057379,HCKT,2023,2023-12-29,84242.0,Goodwill,0000950170-25-030037,goodwill
 1057379,HCKT,2024,2024-12-27,89782.0,Goodwill,0001193125-26-082863,goodwill
 1057379,HCKT,2025,2025-12-26,90659.0,Goodwill,0001193125-26-082863,goodwill
+1057379,HCKT,2009,2010-01-01,2920.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-12-077809,d_and_a
+1057379,HCKT,2010,2010-12-31,3797.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-13-105417,d_and_a
+1057379,HCKT,2011,2011-12-30,2825.0,Depreciation + AmortizationOfIntangibleAssets,0001562762-14-000056,d_and_a
+1057379,HCKT,2012,2012-12-28,2627.0,Depreciation + AmortizationOfIntangibleAssets,0001562762-15-000087,d_and_a
+1057379,HCKT,2013,2013-12-27,2485.0,Depreciation + AmortizationOfIntangibleAssets,0001562762-16-000357,d_and_a
+1057379,HCKT,2014,2015-01-02,4569.0,Depreciation + AmortizationOfIntangibleAssets,0001562762-17-000031,d_and_a
+1057379,HCKT,2015,2016-01-01,4789.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-18-005161,d_and_a
+1057379,HCKT,2016,2016-12-30,3585.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-19-007043,d_and_a
+1057379,HCKT,2017,2017-12-29,4532.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-20-008982,d_and_a
+1057379,HCKT,2018,2018-12-28,4834.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-21-012796,d_and_a
+1057379,HCKT,2019,2019-12-27,4242.0,Depreciation + AmortizationOfIntangibleAssets,0001564590-22-008703,d_and_a
 1644378,RMR,2014,2014-09-30,285046.0,Revenues,0001644378-16-000016,revenue
 1644378,RMR,2015,2015-09-30,192936.0,Revenues,0001644378-17-000040,revenue
 1644378,RMR,2016,2016-09-30,266940.0,Revenues,0001644378-18-000038,revenue
@@ -13262,6 +13359,8 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1862935,CURR,2024,2024-12-31,-65987.533,StockholdersEquity,0001641172-25-004557,stockholders_equity
 1862935,CURR,2023,2023-12-31,27001.383,Goodwill,0001641172-25-004557,goodwill
 1862935,CURR,2024,2024-12-31,12059.428,Goodwill,0001641172-25-004557,goodwill
+1862935,CURR,2023,2023-12-31,3807.9809999999998,Depreciation + AmortizationOfIntangibleAssets,0001641172-25-004557,d_and_a
+1862935,CURR,2024,2024-12-31,2711.4700000000003,Depreciation + AmortizationOfIntangibleAssets,0001641172-25-004557,d_and_a
 1393584,AMWL,2018,2018-12-31,113955.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001564590-21-015812,revenue
 1393584,AMWL,2019,2019-12-31,148857.0,RevenueFromContractWithCustomerExcludingAssessedTax,0001564590-22-007355,revenue
 1393584,AMWL,2020,2020-12-31,245265.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000950170-23-003945,revenue
@@ -13678,6 +13777,23 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1393883,DHX,2023,2023-12-31,128100.0,Goodwill,0001393883-26-000041,goodwill
 1393883,DHX,2024,2024-12-31,128100.0,Goodwill,0001393883-26-000041,goodwill
 1393883,DHX,2025,2025-12-31,120612.0,Goodwill,0001393883-26-000041,goodwill
+1393883,DHX,2009,2009-12-31,17985.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-12-000011,d_and_a
+1393883,DHX,2010,2010-12-31,15553.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-13-000008,d_and_a
+1393883,DHX,2011,2011-12-31,14801.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-14-000008,d_and_a
+1393883,DHX,2012,2012-12-31,12311.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-15-000008,d_and_a
+1393883,DHX,2013,2013-12-31,17401.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-16-000052,d_and_a
+1393883,DHX,2014,2014-12-31,27201.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-17-000007,d_and_a
+1393883,DHX,2015,2015-12-31,23192.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-18-000008,d_and_a
+1393883,DHX,2016,2016-12-31,16636.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-19-000009,d_and_a
+1393883,DHX,2017,2017-12-31,11890.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-20-000011,d_and_a
+1393883,DHX,2018,2018-12-31,9762.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-21-000011,d_and_a
+1393883,DHX,2019,2019-12-31,9743.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-22-000025,d_and_a
+1393883,DHX,2020,2020-12-31,12019.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-23-000062,d_and_a
+1393883,DHX,2021,2021-12-31,17118.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-24-000040,d_and_a
+1393883,DHX,2022,2022-12-31,17487.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-25-000041,d_and_a
+1393883,DHX,2023,2023-12-31,16915.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-26-000041,d_and_a
+1393883,DHX,2024,2024-12-31,17972.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-26-000041,d_and_a
+1393883,DHX,2025,2025-12-31,14577.0,Depreciation + AmortizationOfIntangibleAssets,0001393883-26-000041,d_and_a
 1320760,TSSI,2010,2010-12-31,74903.9,Revenues,0001144204-12-018791,revenue
 1320760,TSSI,2011,2011-12-31,36855.135,Revenues,0001144204-13-016696,revenue
 1320760,TSSI,2012,2012-12-31,47674.127,Revenues,0001144204-14-022809,revenue
@@ -14323,6 +14439,14 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1419275,RTB,2023,2023-12-31,26753.0,Goodwill,0001185185-25-000244,goodwill
 1419275,RTB,2024,2024-12-31,18856.0,Goodwill,0001185185-26-001363,goodwill
 1419275,RTB,2025,2025-12-31,0.0,Goodwill,0001185185-26-001363,goodwill
+1419275,RTB,2010,2010-12-31,12.886,Depreciation + AmortizationOfIntangibleAssets,0001185185-12-000733,d_and_a
+1419275,RTB,2011,2011-12-31,12.886,Depreciation + AmortizationOfIntangibleAssets,0001185185-12-000733,d_and_a
+1419275,RTB,2012,2012-12-31,0.0,Depreciation + AmortizationOfIntangibleAssets,0001185185-14-000998,d_and_a
+1419275,RTB,2013,2013-12-31,2.861,Depreciation + AmortizationOfIntangibleAssets,0001185185-15-000926,d_and_a
+1419275,RTB,2014,2014-12-31,6.088,Depreciation + AmortizationOfIntangibleAssets,0001185185-16-004258,d_and_a
+1419275,RTB,2015,2015-12-31,8.038,Depreciation + AmortizationOfIntangibleAssets,0001185185-17-001237,d_and_a
+1419275,RTB,2016,2016-12-31,10.474,Depreciation + AmortizationOfIntangibleAssets,0001185185-18-000726,d_and_a
+1419275,RTB,2017,2017-12-31,11.086,Depreciation + AmortizationOfIntangibleAssets,0001185185-18-000726,d_and_a
 318833,TISI,2016,2016-12-31,1196696.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000318833-19-000014,revenue
 318833,TISI,2017,2017-12-31,1200211.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000318833-20-000008,revenue
 318833,TISI,2018,2018-12-31,1246929.0,RevenueFromContractWithCustomerExcludingAssessedTax,0000318833-21-000018,revenue
@@ -15240,6 +15364,23 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1158172,SCOR,2023,2023-12-31,310360.0,Goodwill,0001158172-26-000009,goodwill
 1158172,SCOR,2024,2024-12-31,246010.0,Goodwill,0001158172-26-000009,goodwill
 1158172,SCOR,2025,2025-12-31,248636.0,Goodwill,0001158172-26-000009,goodwill
+1158172,SCOR,2009,2009-12-31,8001.0,Depreciation + AmortizationOfIntangibleAssets,0001193125-12-072772,d_and_a
+1158172,SCOR,2010,2010-12-31,12956.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-13-000004,d_and_a
+1158172,SCOR,2011,2011-12-31,22653.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-14-000004,d_and_a
+1158172,SCOR,2012,2012-12-31,23448.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-15-000020,d_and_a
+1158172,SCOR,2013,2013-12-31,24734.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-15-000020,d_and_a
+1158172,SCOR,2014,2014-12-31,25213.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-15-000020,d_and_a
+1158172,SCOR,2015,2015-12-31,31203.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-18-000050,d_and_a
+1158172,SCOR,2016,2016-12-31,57335.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-19-000017,d_and_a
+1158172,SCOR,2017,2017-12-31,58162.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-20-000021,d_and_a
+1158172,SCOR,2018,2018-12-31,50123.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-21-000021,d_and_a
+1158172,SCOR,2019,2019-12-31,42854.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-22-000011,d_and_a
+1158172,SCOR,2020,2020-12-31,41283.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-23-000013,d_and_a
+1158172,SCOR,2021,2021-12-31,40831.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-24-000012,d_and_a
+1158172,SCOR,2022,2022-12-31,43924.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-25-000021,d_and_a
+1158172,SCOR,2023,2023-12-31,24991.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-26-000009,d_and_a
+1158172,SCOR,2024,2024-12-31,25144.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-26-000009,d_and_a
+1158172,SCOR,2025,2025-12-31,26274.0,Depreciation + AmortizationOfIntangibleAssets,0001158172-26-000009,d_and_a
 880984,ACFN,2011,2011-12-31,17539.0,Revenues,0000880984-14-000004,revenue
 880984,ACFN,2012,2012-12-31,17857.0,Revenues,0000880984-14-000004,revenue
 880984,ACFN,2013,2013-12-31,20288.0,Revenues,0001493152-15-001145,revenue
@@ -15889,6 +16030,8 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1066923,FTFT,2025,2025-12-31,605.236,AccountsReceivableNetCurrent,0001213900-26-030833,accounts_receivable
 1066923,FTFT,2021,2021-12-31,15583.675,Goodwill,0001213900-23-031057,goodwill
 1066923,FTFT,2022,2022-12-31,13976.084,Goodwill,0001213900-24-033265,goodwill
+1066923,FTFT,2022,2022-12-31,185.151,Depreciation + AmortizationOfIntangibleAssets,0001213900-24-033265,d_and_a
+1066923,FTFT,2023,2023-12-31,329.311,Depreciation + AmortizationOfIntangibleAssets,0001213900-25-032096,d_and_a
 843006,ACCS,2009,2009-12-31,1885.232,Revenues,0001354488-11-000682,revenue
 843006,ACCS,2010,2010-12-31,3860.513,Revenues,0001354488-12-000920,revenue
 843006,ACCS,2011,2011-12-31,3228.099,Revenues,0001354488-13-000935,revenue
@@ -16098,6 +16241,7 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1787518,DFNS,2025,2025-12-31,-19788.0,StockholdersEquity,0001213900-26-041888,stockholders_equity
 1787518,DFNS,2025,2025-12-31,506.0,AccountsReceivableNetCurrent,0001213900-26-041888,accounts_receivable
 1787518,DFNS,2025,2025-12-31,7688.0,Goodwill,0001213900-26-041888,goodwill
+1787518,DFNS,2025,2025-12-31,4.0,Depreciation + AmortizationOfIntangibleAssets,0001213900-26-041888,d_and_a
 1597846,GRNQ,2014,2014-12-31,576.33,Revenues,0001493152-16-008596,revenue
 1597846,GRNQ,2015,2015-12-31,2946.164,Revenues,0001493152-17-002875,revenue
 1597846,GRNQ,2016,2016-12-31,3091.735,Revenues,0001493152-18-005123,revenue
@@ -16538,6 +16682,7 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 2036307,OFAL,2026,2026-03-31,10983.014,StockholdersEquity,0001493152-26-033093,stockholders_equity
 2036307,OFAL,2025,2025-03-31,7.48,AccountsReceivableNetCurrent,0001493152-26-033093,accounts_receivable
 2036307,OFAL,2026,2026-03-31,3.7,AccountsReceivableNetCurrent,0001493152-26-033093,accounts_receivable
+2036307,OFAL,2025,2025-03-31,1500.288,Depreciation + AmortizationOfIntangibleAssets,0001493152-26-033093,d_and_a
 1905956,TGL,2021,2021-06-30,14020.353,RevenueFromContractWithCustomerExcludingAssessedTax,0001575872-22-001246,revenue
 1905956,TGL,2022,2022-06-30,79674.879,RevenueFromContractWithCustomerExcludingAssessedTax,0001213900-23-080469,revenue
 1905956,TGL,2023,2023-06-30,69408.319,RevenueFromContractWithCustomerExcludingAssessedTax,0001213900-23-080469,revenue
@@ -16596,6 +16741,9 @@ cik,ticker,fiscal_year,end,value_000s,tag,accn,variable
 1905956,TGL,2025,2025-06-30,1592.901,AccountsReceivableNetCurrent,0001213900-26-109073,accounts_receivable
 1905956,TGL,2026,2026-06-30,245.6,AccountsReceivableNetCurrent,0001213900-26-109073,accounts_receivable
 1905956,TGL,2026,2026-06-30,523.084,Goodwill,0001213900-26-109073,goodwill
+1905956,TGL,2021,2021-06-30,9.627,Depreciation + AmortizationOfIntangibleAssets,0001575872-22-001246,d_and_a
+1905956,TGL,2022,2022-06-30,60.605,Depreciation + AmortizationOfIntangibleAssets,0001213900-23-080469,d_and_a
+1905956,TGL,2023,2023-06-30,108.483,Depreciation + AmortizationOfIntangibleAssets,0001213900-24-083395,d_and_a
 1637873,ACVA,2019,2019-12-31,106847.0,Revenues,0000950170-22-001792,revenue
 1637873,ACVA,2020,2020-12-31,208357.0,Revenues,0000950170-23-005445,revenue
 1637873,ACVA,2021,2021-12-31,358435.0,Revenues,0000950170-24-018066,revenue
