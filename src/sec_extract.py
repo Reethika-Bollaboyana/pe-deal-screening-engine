@@ -59,8 +59,13 @@ def get_annual_values(data, candidate_tags, fye_mmdd, tolerance_days=10):
             df["start"] = pd.to_datetime(df["start"])
             df = df[(df["end"] - df["start"]).dt.days.between(350, 380)]
 
+                # Skip tags with no annual 10-K data left (avoids an empty-table quirk in pandas)
+        if df.empty:
+            continue
+
         # Keep periods ending near the company's fiscal year-end date
-        df = df[df["end"].apply(lambda d: days_from_year_end(d, month, day) <= tolerance_days)]
+        near_end = df["end"].apply(lambda d: days_from_year_end(d, month, day) <= tolerance_days)
+        df = df[near_end.astype(bool)]
 
         df["tag"] = tag
         df["priority"] = priority
