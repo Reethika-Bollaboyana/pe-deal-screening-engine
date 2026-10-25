@@ -101,3 +101,23 @@ def compute_metrics(wide, tax_rate=TAX_RATE, include_finance_leases=INCLUDE_FINA
     m["acq_spend_to_revenue"] = safe_divide(acq_3y, m["revenue"])
 
     return m
+
+def compute_valuation(latest, prices, shares=None):
+    """Market cap, enterprise value, and EV/EBITDA ($000s).
+
+    latest: one row per company (latest fiscal year metrics)
+    prices: columns ticker, close_price
+    shares: columns cik, shares_out_000s (cover page); if missing, average diluted shares are used
+    """
+    v = latest.merge(prices, on="ticker", how="left")
+    if shares is not None:
+        v = v.merge(shares, on="cik", how="left")
+    else:
+        v["shares_out_000s"] = np.nan
+
+    v["shares_used_000s"] = v["shares_out_000s"].fillna(v["diluted_shares"])
+    v["shares_basis"] = np.where(v["shares_out_000s"].notna(), "cover page", "avg diluted (fallback)")
+    v["market_cap"] = v["close_price"] * v["shares_used_000s"]      # $ x thousands of shares = $000s
+    v["enterprise_value"] = v["market_cap"] + v["net_debt"]
+    v["ev_to_ebitda"] = safe_divide(v["enterprise_value"], v["ebitda"])
+    return v

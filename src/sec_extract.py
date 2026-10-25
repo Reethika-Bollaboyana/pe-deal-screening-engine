@@ -141,3 +141,22 @@ def extract_company(data, fye_mmdd):
     if not pieces:
         return None
     return pd.concat(pieces, ignore_index=True)
+
+def latest_shares_outstanding(data):
+    """Most recent cover-page shares outstanding (in thousands), from the latest 10-K or 10-Q."""
+    entries = (data.get("facts", {}).get("dei", {})
+                   .get("EntityCommonStockSharesOutstanding", {})
+                   .get("units", {}).get("shares", []))
+    entries = [e for e in entries if e.get("form") in ("10-K", "10-Q")]
+    if not entries:
+        return None
+
+    latest_filed = max(e["filed"] for e in entries)
+    latest = [e for e in entries if e["filed"] == latest_filed]
+    latest_end = max(e["end"] for e in latest)
+    latest = [e for e in latest if e["end"] == latest_end]
+
+    # Companies with several share classes may report one figure per class: add them up
+    return {"shares_out_000s": sum(e["val"] for e in latest) / 1000,
+            "shares_as_of": latest_end,
+            "shares_accn": latest[0]["accn"]}
