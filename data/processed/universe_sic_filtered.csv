@@ -1,0 +1,168 @@
+cik,ticker,company_name,sic_code,sic_description,fiscal_year_end,hq_state
+1403161,V,VISA INC.,7389.0,"Services-Business Services, NEC",930.0,CA
+1141391,MA,Mastercard Inc,7389.0,"Services-Business Services, NEC",1231.0,NY
+1577552,BABA,Alibaba Group Holding Ltd,7389.0,"Services-Business Services, NEC",,
+1467373,ACN,Accenture plc,7389.0,"Services-Business Services, NEC",831.0,L2
+1543151,UBER,"Uber Technologies, Inc",7389.0,"Services-Business Services, NEC",1231.0,CA
+64040,SPGI,S&P Global Inc.,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,NY
+1737806,PDD,PDD Holdings Inc.,7389.0,"Services-Business Services, NEC",1231.0,
+1559720,ABNB,"Airbnb, Inc.",7340.0,Services-To Dwellings & Other Buildings,1231.0,CA
+1099590,MELI,MERCADOLIBRE INC,7389.0,"Services-Business Services, NEC",1231.0,X3
+1059556,MCO,MOODYS CORP /DE/,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,NY
+1792789,DASH,"DoorDash, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
+929869,RELX,RELX PLC,7389.0,"Services-Business Services, NEC",1231.0,X0
+1065088,EBAY,EBAY INC,7389.0,"Services-Business Services, NEC",1231.0,CA
+1633917,PYPL,"PayPal Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
+1408198,MSCI,MSCI Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
+1175454,CPAY,"CORPAY, INC.",7389.0,"Services-Business Services, NEC",1231.0,GA
+798354,FISV,FISERV INC,7389.0,"Services-Business Services, NEC",1231.0,WI
+1269238,TCOM,Trip.com Group Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+1123360,GPN,GLOBAL PAYMENTS INC,7389.0,"Services-Business Services, NEC",1231.0,GA
+33185,EFX,EQUIFAX INC,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,GA
+1383312,BR,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",7389.0,"Services-Business Services, NEC",630.0,NY
+1136893,FIS,"Fidelity National Information Services, Inc.",7389.0,"Services-Business Services, NEC",1231.0,FL
+814547,FICO,FAIR ISAAC CORP,7389.0,"Services-Business Services, NEC",930.0,MT
+1985487,KSPI,Joint Stock Co Kaspi.kz,7389.0,"Services-Business Services, NEC",1231.0,1P
+84839,ROL,ROLLINS INC,7340.0,Services-To Dwellings & Other Buildings,1231.0,GA
+1061574,GIB,CGI INC,8742.0,Services-Management Consulting Services,930.0,A8
+1796209,APG,APi Group Corp,7340.0,Services-To Dwellings & Other Buildings,1231.0,MN
+1552033,TRU,TransUnion,7320.0,"Services-Consumer Credit Reporting, Collection Agencies",1231.0,IL
+1046102,RBA,RB GLOBAL INC.,7389.0,"Services-Business Services, NEC",1231.0,
+1579241,ALLE,Allegion plc,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,
+1057352,CSGP,"COSTAR GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA
+1086222,AKAM,AKAMAI TECHNOLOGIES INC,7389.0,"Services-Business Services, NEC",1231.0,MA
+1579091,CART,Maplebear Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA
+1855612,GRAB,Grab Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+2099039,WSE,Wise Group plc,7389.0,"Services-Business Services, NEC",331.0,
+2080845,PAYP,PayPay Corp,7389.0,"Services-Business Services, NEC",331.0,
+1443646,BAH,Booz Allen Hamilton Holding Corp,8742.0,Services-Management Consulting Services,331.0,VA
+831641,TTEK,TETRA TECH INC,8711.0,Services-Engineering Services,927.0,CA
+1428336,HQY,"HEALTHEQUITY, INC.",7389.0,"Services-Business Services, NEC",131.0,UT
+1370637,ETSY,ETSY INC,7389.0,"Services-Business Services, NEC",1231.0,NY
+1131383,STN,STANTEC INC,8711.0,Services-Engineering Services,,A0
+1617640,ZG,"ZILLOW GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,WA
+868857,ACM,AECOM,8711.0,Services-Engineering Services,930.0,TX
+1398659,G,Genpact LTD,8742.0,Services-Management Consulting Services,1231.0,D0
+1309108,WEX,WEX Inc.,7389.0,"Services-Business Services, NEC",1231.0,ME
+1759509,LYFT,"Lyft, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
+1297989,EXLS,"ExlService Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NY
+2090312,MBGL,Mobility Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,VA
+1727263,FTDR,"Frontdoor, Inc.",7340.0,Services-To Dwellings & Other Buildings,1231.0,TN
+1782170,RELY,"Remitly Global, Inc.",7389.0,"Services-Business Services, NEC",1231.0,WA
+2011286,AMTM,"Amentum Holdings, Inc.",7389.0,"Services-Business Services, NEC",1002.0,VA
+1703056,ADT,ADT Inc.,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,FL
+1657573,XMTR,"Xometry, Inc.",7389.0,"Services-Business Services, NEC",1231.0,MD
+1662991,SEZL,Sezzle Inc.,7389.0,"Services-Business Services, NEC",1231.0,MN
+887936,FCN,"FTI CONSULTING, INC",8742.0,Services-Management Consulting Services,1231.0,DC
+1846832,DLO,dLocal Ltd,7389.0,"Services-Business Services, NEC",1231.0,X3
+1841156,PAY,"Paymentus Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX
+102752,VSEC,VSE CORP,8711.0,Services-Engineering Services,1231.0,FL
+851520,EXPO,EXPONENT INC,8742.0,Services-Management Consulting Services,101.0,CA
+937098,TNET,"TRINET GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,CA
+1032220,MMS,"MAXIMUS, INC.",7389.0,"Services-Business Services, NEC",930.0,VA
+771497,ABM,ABM INDUSTRIES INC /DE/,7340.0,Services-To Dwellings & Other Buildings,1031.0,NY
+1794669,FOUR,"Shift4 Payments, Inc.",7389.0,"Services-Business Services, NEC",1231.0,PA
+1289848,HURN,Huron Consulting Group Inc.,8742.0,Services-Management Consulting Services,1231.0,IL
+944148,CBZ,"CBIZ, Inc.",7389.0,"Services-Business Services, NEC",1231.0,OH
+1845815,PAYO,Payoneer Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
+1580560,FLYW,Flywire Corp,7389.0,"Services-Business Services, NEC",1231.0,MA
+2032966,TIC,"TIC Solutions, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX
+1803599,CNXC,Concentrix Corp,7389.0,"Services-Business Services, NEC",1130.0,CA
+1365135,WU,Western Union CO,7389.0,"Services-Business Services, NEC",1231.0,CO
+1083446,ASTH,"Astrana Health, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA
+1362004,ICFI,"ICF International, Inc.",8742.0,Services-Management Consulting Services,1231.0,VA
+1479681,NUTX,Nutex Health Inc.,7389.0,"Services-Business Services, NEC",1231.0,TX
+1235468,LQDT,LIQUIDITY SERVICES INC,7389.0,"Services-Business Services, NEC",930.0,MD
+1736946,ARLO,"Arlo Technologies, Inc.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,CA
+1094366,RDWR,RADWARE LTD,7389.0,"Services-Business Services, NEC",1231.0,L3
+2065708,ANDG,Andersen Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA
+1851112,RSKD,RISKIFIED LTD.,7389.0,"Services-Business Services, NEC",1231.0,NY
+1370450,WLDN,"Willdan Group, Inc.",8711.0,Services-Engineering Services,101.0,CA
+1702318,AHG,Akso Health Group,7389.0,"Services-Business Services, NEC",331.0,F4
+1117297,QNST,"QUINSTREET, INC",7389.0,"Services-Business Services, NEC",630.0,CA
+1496443,PAYS,"Paysign, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NV
+1412408,PHR,"Phreesia, Inc.",7389.0,"Services-Business Services, NEC",131.0,DE
+708781,CASS,CASS INFORMATION SYSTEMS INC,7389.0,"Services-Business Services, NEC",1231.0,MO
+1847590,BWMN,Bowman Consulting Group Ltd.,8742.0,Services-Management Consulting Services,,VA
+1436126,MG,"Mistras Group, Inc.",8711.0,Services-Engineering Services,1231.0,NJ
+1818383,MAX,"MediaAlpha, Inc.",7389.0,"Services-Business Services, NEC",1231.0,CA
+1653558,PRTH,"Priority Technology Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,GA
+1643615,ONT,"Onterris, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA
+1809104,ALIT,"Alight, Inc. / Delaware",7389.0,"Services-Business Services, NEC",1231.0,IL
+1945240,ROMA,Roma Green Finance Ltd,8742.0,Services-Management Consulting Services,331.0,K3
+1776661,ADV,Advantage Solutions Inc.,7389.0,"Services-Business Services, NEC",1231.0,MO
+1793229,CTEV,Claritev Corp,7389.0,"Services-Business Services, NEC",1231.0,VA
+1635282,RMNI,"Rimini Street, Inc.",7389.0,"Services-Business Services, NEC",1231.0,NV
+1720592,RPAY,Repay Holdings Corp,7389.0,"Services-Business Services, NEC",1231.0,GA
+1057379,HCKT,"HACKETT GROUP, INC.",8742.0,Services-Management Consulting Services,1226.0,FL
+1762301,FVRR,Fiverr International Ltd.,7389.0,"Services-Business Services, NEC",1231.0,L3
+1644378,RMR,RMR GROUP INC.,8742.0,Services-Management Consulting Services,930.0,MA
+1833835,PSFE,Paysafe Ltd,7389.0,"Services-Business Services, NEC",1231.0,X0
+1903508,PPHC,"Public Policy Holding Company, Inc.",8742.0,Services-Management Consulting Services,1231.0,DC
+2051985,IRHO,Iron Horse Acquisition II Corp.,7389.0,"Services-Business Services, NEC",1130.0,FL
+1371489,III,Information Services Group Inc.,8742.0,Services-Management Consulting Services,1231.0,CT
+1683695,IMXI,"International Money Express, Inc.",7389.0,"Services-Business Services, NEC",1231.0,FL
+1835724,ZH,Zhihu Inc.,7389.0,"Services-Business Services, NEC",1231.0,F4
+1015383,POWW,Outdoor Holding Co,7389.0,"Services-Business Services, NEC",331.0,GA
+1897087,SUPX,SuperX AI Technology Ltd,8742.0,Services-Management Consulting Services,630.0,
+1862935,CURR,Currenc Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,
+1393584,AMWL,American Well Corp,7389.0,"Services-Business Services, NEC",1231.0,MA
+1677703,CNDT,CONDUENT Inc,7389.0,"Services-Business Services, NEC",1231.0,NJ
+2058349,EFTY,"ETOILES CAPITAL GROUP CO., LTD",8742.0,Services-Management Consulting Services,1231.0,
+1393883,DHX,"DHI GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,CO
+1320760,TSSI,"TSS, Inc.",8742.0,Services-Management Consulting Services,1231.0,TX
+1755058,AUC,ATIF Holdings Ltd,8742.0,Services-Management Consulting Services,731.0,CA
+1729173,UXIN,Uxin Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+1448431,OPRX,OptimizeRx Corp,7389.0,"Services-Business Services, NEC",1231.0,MA
+1982961,EGG,ENIGMATIG LTD,8742.0,Services-Management Consulting Services,930.0,
+1682149,DVLT,Datavault AI Inc.,7389.0,"Services-Business Services, NEC",1231.0,OR
+1419275,RTB,"RTB Digital, Inc.",8742.0,Services-Management Consulting Services,1231.0,CA
+1971115,RYDE,Ryde Group Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+318833,TISI,TEAM INC,7600.0,Services-Miscellaneous Repair Services,1231.0,TX
+2007846,JLHL,Julong Holding Ltd,8711.0,Services-Engineering Services,,
+2016221,MACI,Melar Acquisition Corp. I/Cayman,7389.0,"Services-Business Services, NEC",1231.0,NY
+1084765,RGP,"RESOURCES CONNECTION, INC.",7389.0,"Services-Business Services, NEC",531.0,TX
+1986694,BBCI,Bradbury Capital Inc.,7389.0,"Services-Business Services, NEC",,
+1983550,TDTH,Trident Digital Tech Holdings Ltd,7389.0,"Services-Business Services, NEC",,
+1437226,MHH,"Mastech Digital, Inc.",8742.0,Services-Management Consulting Services,1231.0,PA
+1386301,RSSS,"Research Solutions, Inc.",7389.0,"Services-Business Services, NEC",630.0,NV
+1875609,SWVL,Swvl Holdings Corp,7389.0,"Services-Business Services, NEC",1231.0,C0
+1877939,CTM,"Castellum, Inc.",8742.0,Services-Management Consulting Services,1231.0,VA
+2001794,CIGL,Concorde International Group Ltd.,7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0
+1158172,SCOR,"COMSCORE, INC.",7389.0,"Services-Business Services, NEC",1231.0,VA
+880984,ACFN,"ACORN ENERGY, INC.",8711.0,Services-Engineering Services,1231.0,DE
+849145,HGBL,Heritage Global Inc.,7389.0,"Services-Business Services, NEC",1231.0,CA
+1839530,XBP,"XBP Global Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,TX
+2038378,ACCL,Acco Group Holdings Ltd,8742.0,Services-Management Consulting Services,,K3
+1743340,TC,Token Cat Ltd,7389.0,"Services-Business Services, NEC",1231.0,F4
+1853044,AERT,"Aeries Technology, Inc.",8742.0,Services-Management Consulting Services,331.0,
+2012600,RYOJ,"rYojbaba Co., Ltd.",8742.0,Services-Management Consulting Services,1231.0,M0
+1941536,BAER,"Bridger Aerospace Group Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,MT
+1974044,MNY,MoneyHero Ltd,7389.0,"Services-Business Services, NEC",1231.0,U0
+1066923,FTFT,Future FinTech Group Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
+2011458,ZTG,Zenta Group Co Ltd,8742.0,Services-Management Consulting Services,930.0,F4
+843006,ACCS,ACCESS Newswire Inc.,8742.0,Services-Management Consulting Services,1231.0,NC
+1787518,DFNS,T3 Defense Inc.,8742.0,Services-Management Consulting Services,1231.0,NY
+1891944,PMEC,Primech Holdings Ltd,7340.0,Services-To Dwellings & Other Buildings,,
+2060083,FOFO,"Hang Feng Technology Innovation Co., Ltd.",8742.0,Services-Management Consulting Services,,
+1743971,MOGU,MOGU Inc.,7389.0,"Services-Business Services, NEC",331.0,
+1876766,LICN,Lichen International Ltd,8742.0,Services-Management Consulting Services,1231.0,F4
+1597846,GRNQ,Greenpro Capital Corp.,8742.0,Services-Management Consulting Services,1231.0,
+2030954,XHLD,"TEN Holdings, Inc.",7389.0,"Services-Business Services, NEC",1231.0,PA
+1781193,QH,QUHUO Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+1777319,CISO,"CISO Global, Inc.",8742.0,Services-Management Consulting Services,1231.0,AZ
+1314196,OLB,"OLB GROUP, INC.",7389.0,"Services-Business Services, NEC",1231.0,NY
+1998560,AXNX,Axonex AI Group Ltd,7389.0,"Services-Business Services, NEC",,
+1818274,ARAI,Arrive AI Inc.,7340.0,Services-To Dwellings & Other Buildings,1231.0,IN
+1779476,KRKR,36Kr Holdings Inc.,7389.0,"Services-Business Services, NEC",1231.0,
+1804469,GFAI,"Guardforce AI Co., Ltd.",7381.0,"Services-Detective, Guard & Armored Car Services",1231.0,U0
+1811216,BAOS,Baosheng Media Group Holdings Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+1916416,INTJ,Intelligent Group Ltd,8742.0,Services-Management Consulting Services,,
+1769768,EJH,E-Home Household Service Holdings Ltd,7600.0,Services-Miscellaneous Repair Services,630.0,F4
+2032545,CJMB,CALLAN JMB INC.,7389.0,"Services-Business Services, NEC",1231.0,TX
+2036307,OFAL,OFA Group,8711.0,Services-Engineering Services,331.0,CA
+1821424,UK,Ucommune International Ltd,7389.0,"Services-Business Services, NEC",1231.0,
+1905956,TGL,TREASURE GLOBAL INC,7389.0,"Services-Business Services, NEC",630.0,NY
+1969863,SUGP,SU Group Holdings Ltd,7381.0,"Services-Detective, Guard & Armored Car Services",930.0,
+1938865,DPU,Nexpu Ltd.,7389.0,"Services-Business Services, NEC",1231.0,
+1637873,ACVA,ACV Auctions Inc.,7389.0,"Services-Business Services, NEC",1231.0,NY
