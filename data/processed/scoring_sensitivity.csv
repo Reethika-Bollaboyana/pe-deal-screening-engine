@@ -1,0 +1,6 @@
+scenario,ranking (eligible only),scores,gap #1 vs #2
+Base case,QNST > WLDN > LQDT,"66.4, 64.7, 63.3",1.7
+Equal weights,QNST > WLDN > LQDT,"71.6, 68.6, 67.2",3.0
+Quality focus,WLDN > LQDT > QNST,"63.2, 62.9, 58.0",0.4
+Value focus,QNST > WLDN > LQDT,"58.4, 50.7, 48.2",7.6
+Growth discounted,QNST > WLDN > LQDT,"58.1, 56.4, 54.8",1.7
