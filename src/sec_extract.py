@@ -36,6 +36,17 @@ def days_from_year_end(end_date, month, day):
                   for shift in (-1, 0, 1)]
     return min(abs((end_date - c).days) for c in candidates)
 
+def infer_fiscal_year_end(data):
+    """Infer fiscal year-end (MMDD) from the latest full-year period reported in a 10-K."""
+    latest = None
+    for info in data.get("facts", {}).get("us-gaap", {}).values():
+        for entries in info["units"].values():
+            for e in entries:
+                if e.get("form") == "10-K" and "start" in e:
+                    start, end = pd.Timestamp(e["start"]), pd.Timestamp(e["end"])
+                    if 350 <= (end - start).days <= 380 and (latest is None or end > latest):
+                        latest = end
+    return None if latest is None else latest.strftime("%m%d")
 
 def get_annual_values(data, candidate_tags, fye_mmdd, tolerance_days=10):
     """One value per fiscal year (in thousands), combining candidate tags in priority order."""
