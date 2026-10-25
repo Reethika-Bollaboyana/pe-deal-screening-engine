@@ -12,9 +12,9 @@ INCLUDE_FINANCE_LEASES = 1    # 1 = count finance leases as debt (mandate, secti
 
 RAW_VARIABLES = ["revenue", "operating_income", "interest_expense", "diluted_shares",
                  "d_and_a", "cfo", "capex", "acquisitions_paid", "cash",
-                 "short_term_debt", "long_term_debt", "finance_lease_current",
-                 "finance_lease_noncurrent", "stockholders_equity",
-                 "accounts_receivable", "goodwill"]
+                 "short_term_debt", "long_term_debt", "long_term_debt_total",
+                 "finance_lease_current", "finance_lease_noncurrent",
+                 "stockholders_equity", "accounts_receivable", "goodwill"]
 
 
 def to_wide(financials):
@@ -45,11 +45,17 @@ def compute_metrics(wide, tax_rate=TAX_RATE, include_finance_leases=INCLUDE_FINA
     """Calculate every screening metric in docs/data_dictionary.md."""
     m = wide.copy()
 
-    # --- Debt: a missing line counts as zero, but companies with no debt tags are flagged ---
-    m["debt_tags_missing"] = m["short_term_debt"].isna() & m["long_term_debt"].isna()
+    # --- Debt ---
+    # Preferred: current + non-current debt. Fallback: total borrowings (LongTermDebt tag),
+    # used only when neither split figure is reported. A missing line counts as zero,
+    # but companies with no debt tags at all are flagged for manual checking.
+    split_missing = m["short_term_debt"].isna() & m["long_term_debt"].isna()
+    borrowings = m["short_term_debt"].fillna(0) + m["long_term_debt"].fillna(0)
+    borrowings = borrowings.where(~split_missing, m["long_term_debt_total"].fillna(0))
+    m["debt_tags_missing"] = split_missing & m["long_term_debt_total"].isna()
+
     finance_leases = m["finance_lease_current"].fillna(0) + m["finance_lease_noncurrent"].fillna(0)
-    m["total_debt"] = (m["short_term_debt"].fillna(0) + m["long_term_debt"].fillna(0)
-                       + include_finance_leases * finance_leases)
+    m["total_debt"] = borrowings + include_finance_leases * finance_leases
     # No balance sheet at all for that year -> debt is unknown, not zero
     m.loc[m["stockholders_equity"].isna(), "total_debt"] = np.nan
 
