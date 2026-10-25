@@ -1,0 +1,4 @@
+cik,ticker,fiscal_year,variable,value_000s,source
+1117297,QNST,2026,acquisitions_paid,105263,"QNST 10-K FY2026 cash flow statement: Business acquisitions, net of cash acquired (custom XBRL tag, not in SEC Company Facts)"
+1117297,QNST,2025,acquisitions_paid,0,"QNST 10-K FY2026 cash flow statement: Business acquisitions, net of cash acquired"
+1117297,QNST,2024,acquisitions_paid,4510,"QNST 10-K FY2026 cash flow statement: Business acquisitions, net of cash acquired"

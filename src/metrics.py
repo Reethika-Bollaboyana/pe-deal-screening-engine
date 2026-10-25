@@ -121,3 +121,16 @@ def compute_valuation(latest, prices, shares=None):
     v["enterprise_value"] = v["market_cap"] + v["net_debt"]
     v["ev_to_ebitda"] = safe_divide(v["enterprise_value"], v["ebitda"])
     return v
+
+def apply_adjustments(financials, adjustments):
+    """Override or add values from a documented manual-adjustments file (long format).
+
+    Each adjustment replaces any extracted value for the same company, fiscal year,
+    and variable. Adjusted rows are tagged "MANUAL", with the source kept in `accn`.
+    """
+    keys = ["cik", "fiscal_year", "variable"]
+    flagged = financials.merge(adjustments[keys], on=keys, how="left", indicator=True)
+    kept = financials[(flagged["_merge"] == "left_only").to_numpy()]
+    manual = adjustments.assign(tag="MANUAL", accn=adjustments["source"])
+    manual = manual[[c for c in financials.columns if c in manual.columns]]
+    return pd.concat([kept, manual], ignore_index=True)
