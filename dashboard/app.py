@@ -144,7 +144,7 @@ if v("B71") is None:
     st.warning("The LBO workbook has no calculated values. Open excel/quinstreet_lbo.xlsx in Excel, save it, and rerun.")
     st.stop()
 
-st.caption(f"Base case: {v('B6'):.0%} takeover premium (${v('B7'):.2f} per share), "
+st.caption(f"{v('B3')}: {v('B6'):.0%} takeover premium (${v('B7'):.2f} per share), "
            f"entry at {v('B14'):.1f}x EBITDA, exit at {v('B64'):.1f}x after 5 years. Source: excel/quinstreet_lbo.xlsx")
 
 k1, k2, k3, k4 = st.columns(4)
