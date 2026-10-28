@@ -126,3 +126,60 @@ breakdown.columns = ["Ticker", "Eligible", "Total score"] + [LABELS[m] for m in 
 st.dataframe(breakdown.round(1), hide_index=True)
 st.caption("Each metric is scored 0-100 on a fixed scale tied to the mandate, then weighted. "
            "Companies above 3.0x net leverage are scored but cannot be recommended.")
+
+# ---------- LBO summary (read from the Excel model) ----------
+from openpyxl import load_workbook  # noqa: E402
+
+st.subheader("LBO test: QuinStreet (top-ranked eligible company)")
+
+lbo = load_workbook("excel/quinstreet_lbo.xlsx", data_only=True)["Model"]
+
+
+def v(ref):
+    """Calculated value of one cell on the LBO Model sheet."""
+    return lbo[ref].value
+
+
+if v("B71") is None:
+    st.warning("The LBO workbook has no calculated values. Open excel/quinstreet_lbo.xlsx in Excel, save it, and rerun.")
+    st.stop()
+
+st.caption(f"Base case: {v('B6'):.0%} takeover premium (${v('B7'):.2f} per share), "
+           f"entry at {v('B14'):.1f}x EBITDA, exit at {v('B64'):.1f}x after 5 years. Source: excel/quinstreet_lbo.xlsx")
+
+k1, k2, k3, k4 = st.columns(4)
+k1.metric("Ridgeline equity required", f"${v('B29'):,.0f}M",
+          delta=f"{v('B29') - v('B32'):,.0f}M over the {v('B32'):,.0f}M limit", delta_color="inverse")
+k2.metric("IRR", f"{v('B71'):.1%}",
+          delta=f"{(v('B71') - v('B72')) * 100:.1f} pts vs {v('B72'):.0%} target")
+k3.metric("MOIC", f"{v('B70'):.2f}x")
+k4.metric("Maximum price Ridgeline could pay", f"${v('B88'):.2f}",
+          delta=f"{v('B90'):.1%} vs ${v('B5'):.2f} market price")
+
+st.markdown(f"**Verdict:** {v('B91')}  \nBinding constraint: {v('B89')}. "
+            f"At the target IRR alone, the maximum would be ${v('B86'):.2f} per share.")
+
+st.markdown("**Where the return comes from**")
+bridge = pd.DataFrame({
+    "source": ["EBITDA growth", "Multiple change", "Net debt paydown", "Fees"],
+    "value_m": [round(v(c), 1) for c in ("B77", "B78", "B79", "B80")],
+})
+bridge["effect"] = bridge["value_m"].apply(lambda x: "Adds value" if x >= 0 else "Destroys value")
+bridge_chart = (
+    alt.Chart(bridge)
+    .mark_bar(cornerRadiusEnd=4)
+    .encode(
+        x=alt.X("value_m:Q", title="Contribution to Ridgeline's gain ($M)"),
+        y=alt.Y("source:N", sort=None, title=None, scale=alt.Scale(paddingInner=0.35)),
+        color=alt.Color("effect:N",
+                        scale=alt.Scale(domain=["Adds value", "Destroys value"], range=["#2a78d6", "#eb6834"]),
+                        legend=alt.Legend(title=None, orient="top")),
+        tooltip=[alt.Tooltip("source:N", title="Source"),
+                 alt.Tooltip("value_m:Q", title="$M"),
+                 alt.Tooltip("effect:N", title="Effect")],
+    )
+        .properties(height=300)
+)
+st.altair_chart(bridge_chart, use_container_width=True)
+st.caption(f"Total gain to Ridgeline: ${v('B81'):,.0f}M. Paying {v('B14'):.1f}x and exiting at {v('B64'):.1f}x "
+           "gives back more than half of the value the operating plan creates.")
